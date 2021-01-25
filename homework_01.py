@@ -7,3 +7,9 @@ print(type(var_01))
 print(type(var_02))
 print(type(var_03))
 print(type(var_04))
+
+var_05 = int(input("Введите целое число: "))
+var_06 = input("Введите любое слово: ")
+
+print(f"Вы ввели число: {var_05}")
+print(f"Вы ввели слово: {var_06}")
