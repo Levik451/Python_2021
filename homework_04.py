@@ -9,9 +9,9 @@ user_number = int(input("Введите целое положительное ч
 max_number = 0
 while user_number:
     number_last = user_number % 10 # берём остаток после запятой
-    #print(number_last) # отлатдка
-    user_number //= 10 # пердвинуть число на порядок
+    #print(number_last) # отладка
+    user_number //= 10 # пердвинуть на порядок
     if max_number < number_last: # сравниваем имеющееся максимальное с последней цифрой в числе
         max_number = number_last # если текущее максимальное меньше, то берём новое максимальное
 else:
-    print("Максимальная цифра в числе: ",max_number)
+    print("Максимальная цифра в числе: ", max_number)
