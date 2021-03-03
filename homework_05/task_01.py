@@ -17,3 +17,5 @@ with open("empty_file_01.txt", "a+", encoding='utf-8') as f:
 with open("empty_file_01.txt", "r", encoding='utf-8') as f:
     data = f.read()
     print(data)
+
+f.close()
