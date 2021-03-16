@@ -9,3 +9,9 @@
 В единственной строке выходного файла выведите сумму чисел A+B
 '''
 
+with open("input.txt", "r", encoding='utf-8') as f:
+    a, b = map(int, f.read().split())
+
+fout = open('output.txt', 'wt')
+print(a + b, file=fout)
+fout.close()
